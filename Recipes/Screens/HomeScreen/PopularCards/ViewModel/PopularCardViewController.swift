@@ -18,7 +18,7 @@ class PopularCardViewModel: ObservableObject {
 		isLoading = true
 		
 		var resource = RecipeInformationResource()
-		resource.filters = ["ids": "773091,725439,717630"]
+		resource.filters = ["ids": "725479,717530,773191"]
 		
 		let request = APIRequest(resource: resource)
 		self.request = request

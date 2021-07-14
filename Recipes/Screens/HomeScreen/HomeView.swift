@@ -47,11 +47,13 @@ struct HomeView: View {
 						}) {
 							Image.menu
 						}
+						.accessibility(label: Text("Menu"))
 					}
 					
 					ToolbarItem(placement: .navigationBarTrailing) {
 						NavigationLink(destination: SearchView()) {
 							Image.search
+								.accessibility(label: Text("Search"))
 						}
 					}
 				}
